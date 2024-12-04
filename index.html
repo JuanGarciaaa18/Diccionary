@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Dictionary JSG</title>
+</head>
+<body>
+    <header>
+        <h1>TRADUCTOR JSG</h1>
+    </header>
+    <section>
+    <div class="traductor">
+    <section class="card-traduction">
+        
+        <div class="word" id="word">
+        <p>Palabra/Word</p>
+        <input type="text">
+        </div>
+
+        <div class="selector-language">
+            <div>
+        <p>Ingles</p>
+        <input type="radio" name="language" id="english">
+    </div>
+    <div>
+        <p>Español</p>
+        <input type="radio" name="language" id="spanish">
+    </div>
+        </div>
+
+        <div class="button-translate" id="Btntranslate">
+            <button type="submit">Traducir/Translate</button>
+        </div>
+
+        <div class="response">
+            <p id="">Respuesta/Response</p>
+        </div>
+
+    </section>
+
+    <section class="card-categories">
+       
+
+        <div class="categories">
+            <h2>Categorías</h2>
+        </div>
+        
+        <div class="subcategories-1">
+            <div>
+                <p>Animales</p>
+                <input type="radio" name="categories" id="animals">
+            </div>
+            <div>
+                <p>Frutas</p>
+                <input type="radio" name="categories" id="fruits">
+            </div>
+            <div>
+                <p>Colores</p>
+                <input type="radio" name="categories" id="colors">
+            </div>
+        </div>
+        
+        <div class="subcategories-2">
+            <div>
+                <p>Descripciones Físicas</p>
+                <input type="radio" name="categories" id="physical_descriptions">
+            </div>
+            <div>
+                <p>Habilidades</p>
+                <input type="radio" name="categories" id="skills">
+            </div>
+            <div>
+                <p>Verbos</p>
+                <input type="radio" name="categories" id="verbs">
+            </div>
+        </div>
+        
+        <div class="list">
+            <p id="word-list">Aquí irán la lista de palabras</p>
+        </div>
+       
+    </section>
+    <section class="card-addWord">
+        
+        <div class="word" id="word-spanish">
+            <p>Palabra en Español</p>
+            <input type="text">
+            </div>
+    
+            <div class="word" id="word-english">
+                <p>Palabra en Ingles</p>
+                <input type="text">
+                </div>
+        
+                <div class="word" id="example">
+                    <p>Ejemplo</p>
+                    <input type="text">
+                    </div>
+
+                    <div class="subcategories-1">
+                        <div>
+                            <p>Animales</p>
+                            <input type="radio" name="categories" id="animals">
+                        </div>
+                        <div>
+                            <p>Frutas</p>
+                            <input type="radio" name="categories" id="fruits">
+                        </div>
+                        <div>
+                            <p>Colores</p>
+                            <input type="radio" name="categories" id="colors">
+                        </div>
+                    </div>
+                    
+                    <div class="subcategories-2">
+                        <div>
+                            <p>Descripciones Físicas</p>
+                            <input type="radio" name="categories" id="physical_descriptions">
+                        </div>
+                        <div>
+                            <p>Habilidades</p>
+                            <input type="radio" name="categories" id="skills">
+                        </div>
+                        <div>
+                            <p>Verbos</p>
+                            <input type="radio" name="categories" id="verbs">
+                        </div>
+                    </div>
+                    
+        <div class="newWord" id="addnewword">
+            <button class="btn-add" type="submit">Nueva Palabra</button>
+        </div>
+    </section>
+    </section>
+    </div>
+    <footer>
+        <h2>By Santiago Miranda -- Juan Manuel Garcia</h2>
+    </footer>
+    <script type="module" src="src/app.js"></script>
+    <script type="module" src="src/dictionary.js"></script>
+    
+</body>
+</html>

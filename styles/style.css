@@ -1,0 +1,182 @@
+*{
+    margin: 2px
+}
+
+body{
+    background-color: #ebd5b8;
+}
+
+header{
+    background-color: #d29a65;;
+    height: 4.5rem;
+    border-radius:2rem;
+    border: solid #361c14;
+}
+
+header h1{
+    text-align: center;
+    padding-top: 1rem;
+}
+.traductor{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card-traduction{
+    margin-top: 2rem;
+    background-color: #e0bc91;
+    height: 18rem;
+    width: 30rem;
+    align-items: center;
+    border-radius:2rem;
+    border: solid #361c14;
+}
+
+input{
+    accent-color: #c98046;
+    width: 1.2rem;
+}
+
+ p{
+    font-size: 1.1rem;
+}
+
+.word{
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}
+
+.word>input{
+    border-radius: 2rem;
+    border: none;
+    width: 70%;
+    height: 1.7rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.selector-language{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.selector-language div{
+    display: flex;
+}
+.button-translate{
+    text-align: center;
+ 
+}
+
+.button-translate button{
+    border-radius: 2rem;
+    border: none;
+    background-color: #c98046;
+    color: #000000;
+    cursor: pointer;
+    width: 40%;
+    margin-top: 1.5rem;
+    width: 14rem;
+    height: 1.5rem;
+    border: solid #000000;
+}
+.button-translate  :hover{
+    background-color: #361c14;
+    color: white;
+    border: solid white;
+}
+
+.response{
+    text-align: center;
+    background-color: #d29a65;
+    width: 90%;
+    margin-left: 1rem;
+    margin-top: 1.3rem;
+    border-radius: 2rem;
+    border: solid #000000;
+}
+.card-categories{
+    margin-top: 2rem;
+    background-color: #e0bc91;
+    height: 36rem;
+    width: 32rem;
+    align-items: center;
+    border-radius:2rem;
+    border: solid #361c14;
+}
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.subcategories-1{
+    margin-top: 2rem;
+   display: flex;
+   justify-content: space-around;
+}
+.subcategories-1 div{
+    display: flex;
+}
+.subcategories-2 div{
+    display: flex;
+}
+.subcategories-2{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .list{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    background-color: #d29a65;
+    border: solid black;
+    border-radius: 2rem;
+ }
+
+ .newWord {
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .btn-add{
+    border-radius: 1rem;
+    border: none;
+    background-color: #c98046;
+    color: #000000;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 2rem;
+    height: 1.7rem;
+    border: solid #000000;
+ }
+
+
+
+ .card-addWord{
+    margin-top: 2rem;
+    background-color: #e0bc91;
+    height: 40rem;
+    width: 30rem;
+    align-items: center;
+    border-radius:2rem;
+    border: solid #361c14;
+ }
+
+ footer{
+    background-color: #d29a65;;
+    height: 4rem;
+    border-radius:2rem;
+    border: solid #361c14;
+}
+
+footer h2{
+    text-align: center;
+    padding-top: 1rem;
+}
